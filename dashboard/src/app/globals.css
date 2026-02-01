@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 /* Test - these should work immediately */
-.test-red { background-color: red; }
-.test-blue { background-color: blue; }
+.test-red {
+  background-color: red;
+}
+
+.test-blue {
+  background-color: blue;
+}
 
 :root {
   --background: #020203;
@@ -18,6 +23,7 @@ body {
   background-color: #020203;
   color: #f4f4f5;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  overflow: auto;
 }
 
 /* Standard CSS without @apply */
